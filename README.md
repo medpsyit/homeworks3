@@ -6,9 +6,8 @@
 - [Задание 1](https://github.com/medpsyit/homeworks3/blob/main/2/Homework%202_1/Homework%202_1/Homework%202_1.cpp)
 - [Задание 2](https://github.com/medpsyit/homeworks3/blob/main/2/Homework%202_2/Homework%202_2/Homework%202_2.cpp)
 ## [Урок 3](3):
-- [Задание 1]()
-- [Задание 2]()
-- [Задание 3]()
+- [Задание 1](https://github.com/medpsyit/homeworks3/blob/main/3/Homework%203_1/Homework%203_1.cpp)
+- [Задание 2](https://github.com/medpsyit/homeworks3/blob/main/3/Homework%203_2/Homework%203_2.cpp)
 ## [Урок 4](4):
 - [Задание 1]()
 - [Задание 2]()
