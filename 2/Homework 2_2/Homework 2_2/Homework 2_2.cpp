@@ -37,12 +37,13 @@ public:
 	{
 		if (&array != this)
 		{
-			*arr = *array.arr;
+			delete[] arr;
 			_size = array._size;
 			count = array.count;
-			if (count > 1)
+			arr = new int[array._size];
+			if (count > 0)
 			{
-				for (int i = 1; i < count; i++)
+				for (int i = 0; i < _size; i++)
 				{
 					arr[i] = array.arr[i];
 				}
@@ -81,6 +82,7 @@ int main()
 
 		std::cout << arr.get_element(1) << std::endl;
 		std::cout << new_array.get_element(1) << std::endl;
+
 	}
 	catch (const std::exception& ex) {
 		std::cout << ex.what() << std::endl;
