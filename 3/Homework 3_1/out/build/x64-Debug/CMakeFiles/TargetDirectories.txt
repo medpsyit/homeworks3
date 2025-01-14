@@ -1,9 +1,0 @@
-C:/Users/gggmi_c2wvhqe/Desktop/lessions c++/5 Продвинутое программирование на С++/Homework/3/Homework 3_1/out/build/x64-Debug/CMakeFiles/HW.dir
-C:/Users/gggmi_c2wvhqe/Desktop/lessions c++/5 Продвинутое программирование на С++/Homework/3/Homework 3_1/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-C:/Users/gggmi_c2wvhqe/Desktop/lessions c++/5 Продвинутое программирование на С++/Homework/3/Homework 3_1/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/gggmi_c2wvhqe/Desktop/lessions c++/5 Продвинутое программирование на С++/Homework/3/Homework 3_1/out/build/x64-Debug/catch2/CMakeFiles/edit_cache.dir
-C:/Users/gggmi_c2wvhqe/Desktop/lessions c++/5 Продвинутое программирование на С++/Homework/3/Homework 3_1/out/build/x64-Debug/catch2/CMakeFiles/rebuild_cache.dir
-C:/Users/gggmi_c2wvhqe/Desktop/lessions c++/5 Продвинутое программирование на С++/Homework/3/Homework 3_1/out/build/x64-Debug/catch2/src/CMakeFiles/Catch2.dir
-C:/Users/gggmi_c2wvhqe/Desktop/lessions c++/5 Продвинутое программирование на С++/Homework/3/Homework 3_1/out/build/x64-Debug/catch2/src/CMakeFiles/Catch2WithMain.dir
-C:/Users/gggmi_c2wvhqe/Desktop/lessions c++/5 Продвинутое программирование на С++/Homework/3/Homework 3_1/out/build/x64-Debug/catch2/src/CMakeFiles/edit_cache.dir
-C:/Users/gggmi_c2wvhqe/Desktop/lessions c++/5 Продвинутое программирование на С++/Homework/3/Homework 3_1/out/build/x64-Debug/catch2/src/CMakeFiles/rebuild_cache.dir
