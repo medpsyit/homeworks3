@@ -4,6 +4,6 @@ project(HW)
 
 add_subdirectory(catch2)
 
-add_executable(${PROJECT_NAME} "Homework 3_2.cpp")
+add_executable(${PROJECT_NAME} "Homework 3_2.cpp" "mylist.h" "mylist.cpp")
 
 target_link_libraries(${PROJECT_NAME} PRIVATE Catch2::Catch2 Catch2::Catch2WithMain)

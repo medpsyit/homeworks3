@@ -164,6 +164,7 @@ AutoTest.Net/
 .sass-cache/
 
 # Installshield output folder
+out/
 [Ee]xpress/
 
 # DocProject is a documentation generator add-in
