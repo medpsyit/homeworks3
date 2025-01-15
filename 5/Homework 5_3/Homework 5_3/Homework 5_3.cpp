@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include <exception> 
 
 template <class T>
 class TestVector {
@@ -13,7 +14,7 @@ public:
 	{
 		data = new T[count];
 		_size = count;
-		_capacity = count;
+		_capacity = 0;
 		for (int i = 0; i < count; i++)
 		{
 			data[i] = T{};
@@ -25,7 +26,12 @@ public:
 			delete[] data;
 		};
 	}
-	T& at(int index) { return data[index]; }
+	T& at(size_t index) { 
+		if (index < _size) {
+			return data[index];
+		}
+		else throw std::out_of_range("incorrect index!");
+	}
 	void push_back(const T& elem) 
 	{
 		if (!data) 
@@ -69,9 +75,14 @@ int main() {
 	vec.push_back(100);
 	std::cout << "SIZE: " << vec.size() << "\nCAPACITY: " << vec.capacity() << std::endl;
 	std::cout << "ALL ELEMENTS: " << std::endl;
-	for (int i = 0; i < vec.size(); i++)
+	try
 	{
-		std::cout << "INDEX " << i << ": " << vec.at(i) << std::endl;
+		for (int i = 0; i < vec.size(); i++)
+		{
+			std::cout << "INDEX " << i << ": " << vec.at(i) << std::endl;
+		}
+		std::cout << "INDEX " << 10 << ": " << vec.at(10) << std::endl;
 	}
+	catch (std::out_of_range& ex) { std::cout << ex.what() << std::endl; }
 	return 0;
 }
