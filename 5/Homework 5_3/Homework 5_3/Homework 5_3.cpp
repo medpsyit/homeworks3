@@ -17,7 +17,7 @@ public:
 		_capacity = 0;
 		for (int i = 0; i < count; i++)
 		{
-			data[i] = T{};
+			data[i] = T{ 0 };
 		}
 	}
 	~TestVector() {
