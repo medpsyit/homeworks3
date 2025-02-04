@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(PARSER)
+
+set (SOURCES 
+"src/parser.cpp"
+"main.cpp"
+)
+
+set (HEADERS 
+"include/parser.h"
+)
+
+add_executable(${PROJECT_NAME} 
+${SOURCES} 
+${HEADERS} )
